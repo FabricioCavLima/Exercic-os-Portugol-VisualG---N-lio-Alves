@@ -2,24 +2,31 @@ Algoritmo "Soma Impares"
 
 Var
 
-soma , impar, x, y, resto : inteiro
+x, y, troca, soma, impar : inteiro
 
 Inicio
 
-escreval("Digite dois numeros:")
+escreval("Escreva dois números:")
 leia(x)
 leia(y)
 
-
 soma <- 0
 
-para impar de x ate y faca
-    resto <- impar % 10
-    se resto <> 1 entao
-     soma <- impar + soma
-    fimse
+se x > y entao
+   troca <- x
+   x <- y
+   y <- troca
+fimse
+
+para impar de x+1 ate y-1 faca
+     se impar % 2 <> 0 entao
+        soma <- soma + impar
+     fimse
 fimpara
-     
-escreva("Soma dos impares = ", soma)
+
+escreva("SOMA DOS IMPARES = ", soma)
+
+
+
 
 Fimalgoritmo
