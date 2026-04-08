@@ -1,4 +1,4 @@
-Algoritmo "Par Impar"
+Algoritmo "Par e Impar"
 
 Var
 
