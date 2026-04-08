@@ -1,4 +1,4 @@
-Algoritmo "MEDIA PONDERADA"
+Algoritmo "Media Ponderada"
 
 Var
 
